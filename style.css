@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #cddbdb;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.locuras {
+    display: flex;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 45px;
+}
+
+.nav {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    font-size: 28px;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.nav-sesion {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+#logo {
+    position: absolute;
+    top: -6px;
+    width: 6%;
+    left: 80px;
+    top: 5px;
+}
+
+#logo2 {
+    position: absolute;
+    top: -6px;
+    width: 6%;
+    top: 5px;
+    right: 60px;
+}
+
+.todo {
+    filter: blur(4px);
+}
+
+.nashe {
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.3) 25%, rgba(0,0,0,0.6) 50%, rgba(0,0,0,0.8) 75%, rgba(0,0,0,1) 100%);
+    margin-top: 20px;
+    width: 100%;
+    height: 100px;
+}
+
+.chocolate {
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 1px solid black;
+    width: 350px;
+    margin-top: 30px;
+}
+
+.chocolate-adaptado {
+    font-family: 'Source Sans Pro', sans-serif;
+    border: 1px solid black;
+    width: 350px;
+    margin-top: 30px;
+
+}
+.noticias-adaptado {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+}
+
+
+
+#gato-h3 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#chocolate-img {
+    width: 300px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+#nav-element:hover {
+    transform: scale(1.1);
+    transition: 0.4s all;
+}
+
+.noticias {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+
+#gato-titulo {
+    font-size: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: inherit;
+    font-weight: bold;
+    margin: 13px 10px;
+}
+
+#gato-texto {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    margin: 20px 70px;
+}
+
+#gato-copete {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    margin: 20px 10px;
+}
+
+#gato-img {
+    width: 38%;
+    
+}
+
+.gato-div-img {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.anuncio {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#inodoro {
+    position: absolute;
+    top: 25%;
+    max-width: 100%;
+    width: 50%;
+}
+
+.cerrar {
+    width: 40px;
+    height: 40px;
+    font-size: 3em;
+    border: none;
+    position: absolute;
+    background-color: #e7e8ea;
+    right: 28%;
+    top: 27%;
+    max-width: 100%;
+    width: 3%;
+}
+
+.cerrarcel {
+    width: 40px;
+    height: 40px;
+    font-size: 3em;
+    border: none;
+    position: absolute;
+    background-color: #81AEEA;
+    right: 26%;
+    top: 27%;
+}
+
+
+
+.cerrarcel:hover {
+    transform: scale(1.3);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.cerrar:hover {
+    transform: scale(1.3);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.linea {
+    width: 100%;
+    height: 2px;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, transparent, black, transparent);
+  }
+
+.boton-no {
+    display: none;
+}
+
+.container-sesion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+/* ACA ES GPT */
+
+#input-sesion {
+    text-align: center;
+    line-height: 2;
+    margin-top: 20px;
+    width: 80%;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f2f2f2;
+    margin-bottom: 30px;
+    }
+    
+    #p-sesion {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    background-color: white;
+    }
+    
+    .submit3 {
+    width: 100%;
+    background-color: #3498db;
+    color: #312d2d;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    height: 60px;
+    }
+    
+    .submit3:hover {
+    transform: scale(0.98);
+    }
+    
+    .container-sesion {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    margin-top: 80px;
+    }
+    
+    
+    
+    .locuras {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    }
+    
+    #horoscopo-h2, #horoscopo-p, #horoscopo-h3, #horoscopo-img {
+        font-family: 'Source Sans Pro';
+        display: inline-block;
+    }
+    
+    #horoscopo-h2, #horoscopo-p {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #horoscopo-img {
+        float: left;
+        width: 10%;
+    }
+
+    #horoscopo-p {
+        clear: both;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    #horoscopo-h2 {
+        font-size: 30px;
+    }
+
+    #horoscopo-h3 {
+        font-size: 25px;
+    }
+
+    #horoscopo-p {
+        font-size: 23px;
+    }
+
+    .horoscopo {
+        margin-top: 20px;
+    }
+
+    #puertas-instrucciones, #puertas-ciega, #puertas-cristal, #puertas-con-cristal {
+        font-family: "Source Sans Pro";
+        font-size: 30px;
+        margin: 20px 70px;
+    }
+
+    #chocolate-img {
+        margin-top: 3.5%;
+    }
+
+    #huevo-lista {
+        font-family: Source Sans Pro;
+        margin-left: 40px;
+        list-style: none;
+        font-size: 23px;
+    }
+
+    #selector {
+        font-family: Source Sans Pro;
+        font-size: 28px;
+        border: 2px solid ;
+    }
+
+    #imagen-no {
+        display: none;
+    }
+    
+
+    
+    @media screen and (max-width: 414px) {
+
+        #logo, #logo2 {
+            width: 14%;
+        }
+
+        #logo {
+            left: 30px;
+        }
+
+        #logo2 {
+            right: 30px;
+        }
+
+       .locuras {
+        font-size: 30px;
+        text-align: center;
+       }
+
+       #chocolate-img {
+        margin:auto;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+        #gato-h3 {
+            font-size: 29px;
+            
+    }
+        .noticias {
+            grid-template-columns: auto ;
+        }
+
+        a{
+            font-size: 20px;
+            
+        }
+        .nav {
+            margin-left: 0;
+            margin-top: 9px;
+        }
+
+        #gato-titulo {
+            font-size: 30px;
+            margin-top: 7px;
+            
+            margin-bottom: 2px;
+        }
+        #gato-copete {
+            font-size: 21px;
+            margin-left: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+        #gato-img {
+            width: 60%;
+        }
+        #gato-texto {
+            margin: 20px 10px;
+            font-size: 23px;
+        }
+
+        #horoscopo-h3 {
+            margin-left: 20px;
+        }
+
+        #horoscopo-img {
+            margin-left: 15px;
+            min-width: 70px;
+        }
+
+        #horoscopo-h2 {
+            padding-top: 15px;
+        }
+
+        #puerta-img {
+            width: 77%;
+        }
+
+        #puertas-instrucciones, #puertas-ciega, #puertas-cristal, #puertas-con-cristal {
+            
+            font-size: 20px;
+            margin: 20px 30px;
+        }
+
+        #selector {
+            font-size: 18px
+        }
+        ul#nav-element {
+            text-align: center;
+        }
+        
+        #nav-element {
+            
+            align-items: center;
+            font-size: 20px;
+        }
+
+        #selector {
+            width: 110px;
+            margin-left: 23px;
+        }
+
+        #noticias-adaptado {
+            width: 30px;
+        }
+
+        .noticias-adaptado {
+            grid-template-columns: auto;
+        }
+
+        #inodoro {
+            max-width: 100%;
+            top: 30%;
+            width: 90%;
+        }
+
+        .cerrar {
+            width: 40px;
+            font-size: 30px;
+            top: 30%;
+            right: 4%;
+        }
+
+        .cerrarcel {
+            width: 40px;
+            font-size: 30px;
+            top: 30%;
+            right: 6%;
+        }
+   }
+    
+   
+
+    

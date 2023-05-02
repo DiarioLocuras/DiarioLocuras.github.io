@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Diario Locuras</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+<div class="todo">
+	<div class="locuras">Diario Locuras</div>
+	<nav class="nav">
+		<ul id="nav-element"><a href="index.html" id="nav-element">Inicio</a></ul>
+		<select onchange="window.location.href=this.value;" id="selector">
+			<option value="">Categorias</option>
+			<option value="noticias.html">Noticias</option>
+			<option value="opinion.html">Notas de opinion</option>
+			<option value="entretenimiento.html">Entretenimiento</option>
+			<option value="horoscopo.html">Horoscopo</option>
+		</select>
+		<ul id="nav-element"><a href="sesion.html" id="nav-element">Inicio de sesion</a></ul>
+	</nav>
+
+	<img src="logo.png" alt="" id="logo">
+	
+	<img src="logo.png" alt="" id="logo2">
+
+    <div id="gato-titulo">Abrir una puerta, ¿tan facil como parece?</div>
+
+    <div id="gato-copete">Abrir una puerta puede parecer algo sencillo, sin embargo, en el día a día, debemos tener la técnica perfecta en mente para no confundirnos en situaciones de urgencia.</div>
+
+    <div class="gato-div-img"><img src="puertas-tipos.jpg" alt="" id="puerta-img"></div>
+
+    <p id="puertas-instrucciones">Instrucciones para abrir una puerta de forma exitosa:</p>
+
+    <p id="puertas-ciega">
+        <b>Puerta abatible ciega</b>: ya que no podemos ver quien se encuentra del otro lado, debemos tener suma precaución a la hora de abrir la misma. Para proteger nuestra integridad física, debemos entreabrir la puerta y observar si hay alguien quiérenos cruzar esta frontera. Si no hay nadie, podemos continuar para luego, desde el otro lado, ejercer un poco de fuerza (no demasiada) y cerrar finalmente la puerta.
+    </p>
+
+    <p id="puertas-cristal">
+        <b>Puerta abatible de cristal</b>: esta es la más sencilla de cruzar. Tan solo debemos tener en cuenta no chocarnos con el vidrio, pero como podemos observar quién está del otro lado cruzar esta puerta no debería representar mayor inconveniente. Aplicamos la misma técnica explicada previamente (abrirla, cruzar, y desde el otro lado tener cuidado de no hacerlo con mucha fuerza ni tampoco con muy poca)
+    </p>
+
+    <p id="puertas-con-cristal">
+        <b>Puerta abatible con cristal</b>: esta puerta tiene una dificultad intermedia. Por un lado, tenemos un espacio para observar si alguien quiere transitar la puerta desde el otro lado, pero no la suficiente para ver si por ejemplo un enano está intentando cruzar la puerta. La técnica es la misma que se utiliza para las otras.
+    </p>
+</div>
+	<div class="anuncio">
+		<img src="inodoro.png" id="inodoro">
+		<button onclick="cambiarId()" class="cerrarcel"> X</button>
+	</div>
+	<div class="nashe"></div>
+</body>
+</html>

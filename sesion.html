@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Diario Locuras</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+    <body>
+        <div class="locuras">Diario Locuras</div>
+        <nav class="nav">
+            <ul id="nav-element"><a href="index.html" id="nav-element">Inicio</a></ul>
+            <select onchange="window.location.href=this.value;" id="selector">
+                <option value="">Categorias</option>
+                <option value="noticias.html">Noticias</option>
+                <option value="opinion.html">Notas de opinion</option>
+                <option value="entretenimiento.html">Entretenimiento</option>
+                <option value="horoscopo.html">Horoscopo</option>
+            </select>
+            <ul id="nav-element"><a href="sesion.html" id="nav-element">Inicio de sesion</a></ul>
+        </nav>
+    
+        <img src="logo.png" alt="" id="logo">
+        
+        <img src="logo.png" alt="" id="logo2">
+
+        <div class="container-sesion">
+            <p id="p-sesion">Registrate</p>
+            <input id="input-sesion" type="email" placeholder="Introduce tu Mail" required>
+            <input id="input-sesion" type="password" placeholder="Introduce tu Contraseña" required>
+            <input id="input-sesion" type="submit" class="submit3" required>
+        </div>
+
+
+    </body>
+</html>
